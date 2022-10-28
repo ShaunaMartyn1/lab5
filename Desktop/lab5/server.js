@@ -71,7 +71,7 @@ app.get('/api/books', (req, res) => {
     })
 })
 app.get('/test', (req, res)=>{
-    res.sendFile(__dirname + '/index.html') //current file you're in 
+    res.sendFile(__dirname + '/index.html') //__dirname - get the current file you're in 
 })
 //listen for a get and a post
 app.get('/name', (req, res) => {
